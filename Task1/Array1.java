@@ -1,4 +1,4 @@
-package Task1;
+package task1;
 
 /**
  * Created by Viktor on 06.05.2018.
