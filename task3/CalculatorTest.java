@@ -27,16 +27,16 @@ public class CalculatorTest {
 
         switch (mathActivity.charAt(0)) {
             case '+':
-                System.out.println(calculator.adding(a, b));
+                System.out.println("Result for adding is :" + calculator.adding(a, b));
                 break;
             case '-':
-                System.out.println(calculator.subtract(a, b));
+                System.out.println("Result for subtraction is: " + calculator.subtract(a, b));
                 break;
             case '*':
-                System.out.println(calculator.multiply(a, b));
+                System.out.println("Result for multiplication is: " + calculator.multiply(a, b));
                 break;
             case '/':
-                System.out.println(calculator.divide(a, b));
+                System.out.println("Result for dividing is: " + calculator.divide(a, b));
                 break;
 
 
